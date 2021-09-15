@@ -19,9 +19,7 @@ namespace ADB_simplifier
             {
                 Console.WriteLine("ADB není nainstalované!");
                 downandinstadb();
-                Console.ForegroundColor = ConsoleColor.Red;
                 Thread.Sleep(100);
-                Console.ReadLine();
             }
             else
             {
@@ -120,7 +118,12 @@ namespace ADB_simplifier
                 Console.WriteLine(" ----- ");
                 Console.WriteLine(" ----- ");
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Hotovo, prosím, restartujte program!");
+                Console.WriteLine("Hotovo, zmáčkněte jakoukoliv klávesu pro restartování programu.");
+                Console.ReadKey();
+
+                string restartpath = Environment.CurrentDirectory+"\\ADB_simplifier.exe";
+                System.Diagnostics.Process.Start(restartpath);
+                Thread.Sleep(100);
             }
             catch (Exception e)
             {
