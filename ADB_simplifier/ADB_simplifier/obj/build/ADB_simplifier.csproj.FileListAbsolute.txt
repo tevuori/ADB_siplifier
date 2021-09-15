@@ -1,0 +1,4 @@
+C:\Users\kubah\RiderProjects\ADB_simplifier\ADB_simplifier\bin\build\ADB_simplifier.exe
+C:\Users\kubah\RiderProjects\ADB_simplifier\ADB_simplifier\obj\build\ADB_simplifier.csprojAssemblyReference.cache
+C:\Users\kubah\RiderProjects\ADB_simplifier\ADB_simplifier\obj\build\ADB_simplifier.csproj.CoreCompileInputs.cache
+C:\Users\kubah\RiderProjects\ADB_simplifier\ADB_simplifier\obj\build\ADB_simplifier.exe
